@@ -116,6 +116,10 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
 	frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    device/lge/mako/bootanimation.zip:/system/media/bootanimation.zip
+
 # NFC packages
 PRODUCT_PACKAGES += \
     nfc_nci.bcm2079x.default \
